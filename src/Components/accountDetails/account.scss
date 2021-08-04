@@ -1,0 +1,229 @@
+.container__account {
+  width: 114rem;
+  height: 100%;
+  margin: 0rem auto;
+}
+
+.row__account {
+  height: 100%;
+
+  display: flex;
+  padding-top: 2rem;
+  justify-content: space-between;
+  //   align-items: center;
+}
+
+.wrapper__descriptionProfile {
+  width: 40rem;
+  height: 100%;
+
+  //   background-color: #333;
+}
+
+.wrapper_reposList__account {
+  width: 59rem;
+  height: 100%;
+
+  //   background-color: #666;
+}
+
+.wrapper_img__account {
+  width: 70%;
+  //   margin: 0 auto;
+
+  .img_profile__account {
+    width: 100%;
+    border-radius: 50%;
+  }
+}
+
+.titleName_profile__account {
+  font-size: 2.6rem;
+  font-weight: 600;
+  padding-top: 1rem;
+
+  &::first-letter {
+    text-transform: uppercase;
+  }
+}
+
+.linkProfile__account {
+  font-size: 1.8rem;
+  display: inline-block;
+  padding: 1rem;
+  margin: 1rem 0.5rem;
+  text-decoration: none;
+  color: #0064eb;
+}
+
+.descriptionLocation__account {
+  display: flex;
+  align-items: center;
+
+  font-size: 2rem;
+  padding: 0 0.5rem;
+}
+
+.country_info__account {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+
+  svg {
+    font-size: 2.6rem;
+  }
+}
+
+.releaseDate_info__account {
+  margin-top: 1.5rem;
+
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+
+  svg {
+    font-size: 2.6rem;
+  }
+}
+
+.descriptionDate__account {
+  display: flex;
+  align-items: center;
+
+  font-size: 2rem;
+  padding: 0 0.5rem;
+}
+
+.wrapper_follow__account {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 2.5rem;
+}
+
+.wrapper_following__account {
+  display: flex;
+  align-items: center;
+
+  svg {
+    font-size: 2.6rem;
+  }
+}
+
+.wrapper_following__account {
+  svg {
+    font-size: 2.6rem;
+  }
+}
+
+.description_follow__account {
+  font-size: 2rem;
+  padding-left: 1rem;
+}
+
+.description_bio__account {
+  font-size: 1.9rem;
+}
+
+.description_bio__account {
+  display: block;
+  padding-top: 2rem;
+
+  &::first-letter {
+    padding-left: 1.5rem;
+  }
+}
+
+.wrapper__reposInfoScreen {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subtitle_reposCount__account {
+  font-size: 3rem;
+}
+
+.wrapper__cardRepos {
+  height: 9rem;
+  border-radius: 1rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #fff;
+  position: relative;
+  margin-top: 1rem;
+
+  &:first-child {
+    margin-top: 2rem;
+  }
+
+  .wrapper_desc__cardRepos {
+    width: 80%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .link_title__cardRepos {
+    margin: 3% 4%;
+    font-size: 2rem;
+    text-decoration: none;
+    display: block;
+    color: #0064eb;
+    font-weight: 500;
+  }
+
+  .description__cardRepos {
+    position: absolute;
+    bottom: 15%;
+    left: 4%;
+    font-size: 1.2rem;
+
+    width: 80%;
+  }
+
+  .forks__cardRepos {
+    font-size: 1.8rem;
+
+    &:first-child {
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  .description_forks__cardRepos {
+    font-size: 1.6rem;
+
+    &::first-letter {
+      text-transform: uppercase;
+    }
+  }
+
+  .wrapper_forks__cardRepos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-right: 1.1rem;
+    // align-items: center;
+  }
+}
+
+.wrapper_pagination__listRepos {
+  margin: 2rem 0rem;
+  display: flex;
+  justify-content: center;
+
+  nav {
+    button {
+      font-size: 1.4rem;
+    }
+  }
+}

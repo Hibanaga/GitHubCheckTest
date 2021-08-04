@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+main {
+  position: absolute;
+  top: 6.3rem;
+  left: 0;
+  right: 0;
+}
+
+.fade-appear,
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+.fade-appear-active,
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms linear 150ms;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  transition: opacity 150ms linear;
+}
+
+.fade__in-hello {
+  animation: fade 0.9s ease-in;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+}
